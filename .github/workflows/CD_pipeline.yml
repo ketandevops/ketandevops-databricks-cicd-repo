@@ -29,7 +29,7 @@ jobs:
        EOF
 
    - name: Import Notebook to Workspace
-     run: databricks workspace import sample_sales_notebook.py /Workspace/Users/your_username/your_notebook -l python --overwrite
+     run: databricks workspace import sample_sales_notebook.py /Workspace/Users/user1-52553505@lodsprodmslearnmca.onmicrosoft.com/lab1 -l python --overwrite
 
      env:
        DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
