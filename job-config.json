@@ -1,9 +1,9 @@
 {
   "name": "CD pipeline",
-  "existing_cluster_id": "your_cluster_id",
+  "existing_cluster_id": "0626-200527-qgdy129q",
   "timeout_seconds": 1200,
   "max_retries": 3,
   "notebook_task": {
-    "notebook_path": "/Workspace/Users/your_username/your_notebook"
+    "notebook_path": "/Workspace/Users/user1-52553505@lodsprodmslearnmca.onmicrosoft.com/lab1"
   }
 }
